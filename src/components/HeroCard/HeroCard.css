@@ -1,0 +1,42 @@
+.hero_card {
+    box-shadow: 0 0 0 5px hsl(0, 0%, 80%), 0 0 0 10px hsl(0, 0%, 90%);
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 50%;
+    font-family: one;
+    color: white;
+    -webkit-text-stroke: #000;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    word-break: break-word;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero_card:hover {
+    box-shadow: 0 0 0 5px hsl(59, 100%, 50%), 0 0 0 10px hsl(78, 90%, 62%);
+}
+
+.active {
+    box-shadow: 0 0 0 5px hsl(59, 100%, 50%), 0 0 0 10px hsl(78, 90%, 62%);
+}
+
+.hero_card.active::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    right: -30px;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    background-color: #aaa;
+}

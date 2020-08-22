@@ -1,38 +1,38 @@
+@font-face {
+    font-family: one;
+    src: url(./assets/NorthstarBoldItalic-dYAE.otf);
+}
+
+@font-face {
+    font-family: two;
+    src: url(./assets/Northstar3DItalic-7V9R.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 15px;
+}
+
+.hero_section body {
+    background-color: rgb(217, 217, 217);
+}
+
 .App {
-  text-align: center;
+    background: linear-gradient( to bottom, rgba(231, 234, 248, 0.623), rgba(104, 192, 226, 0.836));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+    color: white;
+    text-decoration: none !important;
+    font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link:hover {
+    color: rgba(255, 255, 255, 0.5);
 }

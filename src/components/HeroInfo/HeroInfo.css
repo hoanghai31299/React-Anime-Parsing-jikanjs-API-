@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.hero_info {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #343a40;
+    color: black;
+    border-radius: 0.5rem;
+    height: 630px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 93% 0%, 100% 20%, 100% 100%, 7% 100%, 0 80%);
+}
+
+.infomation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_info h1 {
+    font-family: two;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 255, 28);
+}
+
+.hero_info p {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    height: 500px;
+    overflow: auto;
+    width: 800px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+}
+
+.hero_info .about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about .cover span {
+    display: block;
+    font-family: one;
+    font-weight: 200;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.hero_info .about .cover>span {
+    font-size: 2rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #343a40;
+}
+
+.hero_info .about img {
+    margin: 10px;
+    border-radius: 5px;
+    border: yellow solid 1px;
+}

@@ -1,0 +1,31 @@
+.hero_list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.hero_list>i {
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.hero_list>i:hover {
+    color: #bbb;
+}
+
+.hero_wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.non-display {
+    opacity: 0;
+    pointer-events: none;
+}

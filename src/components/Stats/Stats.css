@@ -1,0 +1,84 @@
+.stats {
+    height: 100vh;
+}
+
+.number-stats {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.number-stats .score {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.number-stats .score span:nth-child(1) {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.2rem;
+}
+
+.number-stats .details {
+    flex-grow: 1;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.number-stats .details>div {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.number-stats .details div:nth-child(1) {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.trailer {
+    margin-top: 50px;
+    border-radius: 0.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trailer iframe {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0 5px hsl(0, 0%, 80%), 0 0 0 10px hsl(0, 0%, 90%);
+}
+
+.trailer iframe:hover {
+    box-shadow: 0 0 0 5px hsl(59, 90%, 50%), 0 0 0 10px hsl(78, 60%, 62%);
+}
+
+.title {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    width: 500px;
+}
+
+.title h1 {
+    font-size: 4rem !important;
+    font-family: two;
+}
+
+.title span {
+    font-family: one;
+    font-size: 1rem;
+}
